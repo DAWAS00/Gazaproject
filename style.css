@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(237, 237, 224);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #4a6741; /* Soft olive green */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Hero section styling */
+.hero {
+    background-color: rgb(230, 235, 228); /* Light version of nav color in RGB */
+    padding: 60px 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 40px auto;
+    
+}
+
+.hero h1 {
+    color: #4a6741;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero p {
+    color: #555;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Hero content layout */
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.hero-logo {
+    flex: 0 0 200px;
+}
+
+.hero-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Intro Sections Styling */
+.intro-sections {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+    
+}
+.intro-text {
+    flex: 1;
+}
+
+.intro-text h2 {
+    color: #2c3e50;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+
+
+.intro-text p {
+    color: #5a6a7a;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.intro-image {
+    flex: 1;
+    max-width: 500px;
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
